@@ -1,4 +1,4 @@
-// Electricity Bil Calulator using c
+// Electricity Bil Calculator using c
 
 #include <stdio.h>
 #include<conio.h>
@@ -21,7 +21,7 @@ repeat:
   printf("*****Enter to choice*****\n");
   printf("Press V for village area\n");
   printf("Press C for city area\n");
-  printf("Press I for industril area\n");
+  printf("Press I for industrial area\n");
   printf("Press A for agriculture area\n");
   choice = getche();
 
@@ -97,7 +97,7 @@ repeat:
   }
 
 
-  // For industril area
+  // For industrial area
 
 
   else if (choice == 'i' || choice == 'I')
