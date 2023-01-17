@@ -32,8 +32,8 @@ repeat:
     goto repeat;
   }
 
-  printf("\nEnter Unit\n");
-  scanf("%d", &unit);
+  printf("\nEnter Unit\n"); 
+  scanf("%d", &unit); // read unit from user
   
 
 // For village area
@@ -71,7 +71,7 @@ repeat:
 
   else if (choice == 'c' || choice == 'C')
   {
-    printf("city area\n");
+  
     if (unit <= 24) // Count for frist 24 unit
     {
       total_used = unit * 7;
